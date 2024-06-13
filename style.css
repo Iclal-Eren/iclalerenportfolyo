@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+#top-container {
+height:100px;
+width:100%;
+}
+
+.logo{
+height:100px;
+padding:5px;
+text-align:center;
+float:left;
+}
+
+.menu{
+padding:50px;
+float:left;
+}
+
+.menu a{
+color:pink;
+text-decoration:none;
+}
+
+.menu a:hover{
+color:purple;
+text-decoration:overline;
+}
+
+#slider-container {
+height:400px;
+background-image: url("images/slider.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#content-container {
+height:100px;
+height:auto;
+margin-top:20px;
+margin-bottom:20px;
+}
+
+#content-container-2 {
+height:100px;
+height:auto;
+margin-top:20px;
+margin-bottom:20px;
+background-color: #FEF1A3;
+}
+
+.content-box {
+float:left;
+overflow:hidden;
+font-size:18px;
+text-align:left;
+margin-top:20px;
+margin-bottom:20px;
+}
+
+.content-box-2 {
+float:left;
+overflow:hidden;
+font-size:20px;
+text-align:center;
+margin-top:20px;
+margin-bottom:20px;
+color: purple;
+text-decoration:underline;
+}
+
+.content-box-3 {
+float:left;
+overflow:hidden;
+font-size:18px;
+text-align:center;
+margin-top:20px;
+margin-bottom:20px;
+color: black;
+}
+
+.content-box-4 {
+float:left;
+overflow:hidden;
+font-size:24px;
+text-align:center;
+font: times new roman;
+margin-top:20px;
+margin-bottom:20px;
+color: #C21818;
+}
+
+.content-box-5 {
+float:left;
+overflow:hidden;
+font-size:20px;
+text-align:center;
+font: times new roman;
+margin-top:20px;
+margin-bottom:20px;
+color: black;
+}
+
+.content-box-6 {
+float:right;
+overflow:hidden;
+font-size:18px;
+text-align:right;
+font: times new roman;
+margin-top:20px;
+margin-bottom:20px;
+color: black;
+}
+
+.content-box-7 {
+float:left;
+overflow:hidden;
+font-size:18px;
+text-align:left;
+font: times new roman;
+margin-top:20px;
+margin-bottom:20px;
+color: black;
+}
+
+#footer-container {
+line-height:70px;
+}
+
+.footer-content{
+text-align:center;
+font-size: 16px;
+background-color:pink;
+}
+
+.menu button {
+border:0;
+background:none;
+color:pink;
+}
+
+.menu ul li {
+line-height:40px;
+height:40px;
+text-decoration:none;
+}
+
+input, select, textarea{
+  display:block;
+  width:100%;
+  padding:.3em;
+  font-size:20px;
+  background-color:##F9E0E3;
+  border:solid 1px #CCC;
+  resize:vertical;
+}
+textarea{
+  min-height:180px;
+}
+select{
+  color:indigo;
+}
+option{
+  color:purple;
+  background: lavenderBlush;
+}
+input[type=checkbox]{
+  display:inline;
+  width:auto;
+  color:pink;
+}
+
+input[type=submit]{
+  background:#E55175;
+  margin:1em 0 0;
+  color:white;
+  border:none;
+  border-radius:8px;
+  transition:all .3s ease-out;
+}
+
+input:focus,
+input:hover,
+select:focus,
+select:hover,
+textarea:focus,
+textarea:hover{
+  background: lavenderBlush;
+}
+
+
+input[type=submit]:hover,
+input[type=submit]:focus{
+  background: #F9E0E3;
+  color: black;
+  outline:none;
+}
+
+@media screen and (min-width:600px) {
+  /*  make the form 2 columns */
+  form:after{
+    content:'';
+    display:block;
+    clear:both;
+  }
+  .column{
+    width:50%;
+    padding:1em;
+    float:left;
+  }
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: 20px;
+    color: white;
+    background-color: #E55175;
+    text-decoration: none;
+    transition: background-color pink;
+	transition: color purple;
+    text-align: center;
+}
+
+.button:hover,
+.button:focus {
+    background-color: pink;
+}
